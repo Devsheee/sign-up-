@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form Validation</h1>
+    <form id="myForm" >
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter Full Nsme" oninput="validateFullName()">
+        <span id="fullNameError" class="error"></span>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="enter Email" oninput="validateEmail()">
+        <span id="emailError" class="error"></span>
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="enter phone number" oninput="validatePhoneNumber()">
+        <span id="phoneNumberError" class="error"></span>
+            <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" oninput="validateDOB()">
+        <span id="dobError" class="error"></span>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" placeholder="enter address" oninput="validateAddress()">
+        <span id="addressError" class="error"></span>
+        <button  id="submitBtn" value="Submit" onclick="enableSubmitBtn()">Submit</button>
+        
+    </form>
+    <script src="signup.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

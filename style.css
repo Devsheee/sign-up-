@@ -1,0 +1,13 @@
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+.error {
+    color: red;
+}
+#submitBtn{
+    padding: 3px;
+    width: 58px;
+    height: 20px;
+}
+
